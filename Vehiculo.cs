@@ -8,13 +8,7 @@ namespace PracticaMensualSegundo
 {
     public abstract class Vehiculo
     {
-        public int HorasEstancia;
-
-        private int horasestancia
-        { 
-            get { return HorasEstancia; }
-            set { HorasEstancia = value; }
-        }
+        public int HorasEstancia { get; set; }
 
         public Vehiculo(int horas)
         {
