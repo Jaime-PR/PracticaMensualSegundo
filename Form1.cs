@@ -24,10 +24,19 @@ namespace PracticaMensualSegundo
             int horas = int.Parse(txtHoras.Text);
 
             //if
-
+            if (cmbTipoVehiculo.Text == "Motocicleta")
+            {
+                
+            }
             //else if
+            else if (cmbTipoVehiculo.Text == "Automóvil")
+            {
 
+            }
             //else if
+            else if (cmbTipoVehiculo.Text == "Camión")
+            {
+            }
 
 
             if (vehiculo == null)
