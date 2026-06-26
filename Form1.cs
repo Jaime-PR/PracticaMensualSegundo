@@ -16,5 +16,27 @@ namespace PracticaMensualSegundo
         {
             InitializeComponent();
         }
+
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+            Vehiculo vehiculo = null;
+
+            int horas = int.Parse(txtHoras.Text);
+
+            //if
+
+            //else if
+
+            //else if
+
+
+            if (vehiculo == null)
+            {
+                double total = vehiculo.Calcular();
+
+                lblTarifa.Text = "Total a pagar: $" + total.ToString("0.00");
+            }
+
+        }
     }
 }
